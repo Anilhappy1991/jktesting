@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "home": "Home",
+    "profile": "Profile",
+    "organizationSetup": "Organizational Setup",
+    "functions": "Functions",
+    "departments": "Departments",
+    "actsRulesByelaws": "Acts, Rules & Bye-Laws",
+    "achievements": "Achievements",
+    "brapCompliance": "BRAP Compliance",
+    "faqs": "FAQs",
+    "governmentOrders": "Government Orders",
+    "officeCirculars": "Office Circulars",
+    "publicNotices": "Public Notices",
+    "notifications": "Notifications",
+    "citizenServices": "Citizen Services",
+    "eTenders": "e-Tenders",
+    "schemes": "Schemes",
+    "ordersCirculars": "Orders & Circulars",
+    "informations": "Informations",
+    "aboutUs": "About Us",
+    "officialLogin": "Official Login",
+    "publicLogin": "Public Login",
+    "logins": "Logins"
+  },
+  "common": {
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "search": "Search",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "backToHome": "Back to Home",
+    "download": "Download",
+    "share": "Share",
+    "skipToMainContent": "skip To Main Content"
+  },
+  "home": {
+    "heroTitle": "Welcome to HUDD",
+    "heroSubtitle": "Housing & Urban Development Department"
+  },
+  "headings": {
+    "informationKiosk": "Information Kiosk",
+    "quickLinks": "Quick Links",
+    "ourSchemes": "Our Schemes",
+    "whatsNew": "What's New",
+    "media": "Media",
+    "socialMediaAnnouncements": "Social Media & Announcements",
+    "citizenEServices": "Citizen e-Services",
+    "ourHODs": "Our HODs",
+    "achievements": "Achievements",
+    "exploreGallery": "Explore Gallery",
+    "subordinateDepartments": "Subordinate Departments of HUDD",
+    "actsRulesByeLaws": "Acts, Rules & Bye-Laws",
+    "schemesOfHUDD": "Schemes of HUDD",
+    "govOrdersCircularsNotices": "Government Orders, Circulars & Notices",
+    "orders": "Orders",
+    "circulars": "Circulars",
+    "notices": "Notices",
+    "notifications": "Notifications",
+    "view": "View",
+    "viewArchive": "View Archive",
+    "viewLatest": "View Latest",
+    "download": "Download",
+    "analyticDashboard": "Analytic Dashboard",
+    "clickMore": "Click More",
+    "frequentlyAskedQuestion": "Frequently Asked Question",
+    "archived": "Archived",
+    "serialNumber": "S. No.",
+    "title": "Title",
+    "action": "Action",
+    "searchDocuments": "Search Documents",
+    "tenders": "Tenders",
+    "searchTenders": "Search Tenders",
+    "exploreMore": "Explore More",
+    "social": "Social",
+    "mediaAnnouncements": "Media & Latest News",
+    "organizationSetup": "ORGANIZATION SETUP",
+    "functions": "FUNCTIONS",
+    "importantLinks": "Important Links",
+    "additionalInformation": "Additional Information"
+  },
+  "ulbNav": {
+    "home": "Home",
+    "eServices": "e-Services",
+    "informationKiosk": "Information Kiosk",
+
+    "orders": "Orders",
+    "photoGallery": "Photo Gallery",
+    "contactUs": "Contact Us"
+  },
+  "tendersTableHeaders": {
+    "srNo": "Sr. No",
+    "referenceNo": "Reference No.",
+    "tenderDetails": "Tender Details",
+    "openingDate": "Opening Date",
+    "closingDate": "Closing Date",
+    "downloadDetails": "Download Details"
+  },
+  "about": {
+    "title": "ABOUT H&UDD-J&K",
+    "description": "The Housing and Urban Development Department is mandated to frame policies, prepare plans and schemes for growth of urban areas and to provide civic amenities in urban areas. Further, the Department is also entrusted with the responsibility of strengthening urban local self governments enabling them to discharge their functions effectively in terms of providing quality municipal services to the people.",
+    "cards": {
+      "urbanGrowth": "Urban Growth & Planning",
+      "digitalServices": "Digital Urban Services",
+      "urbanGovernance": "Strengthening Urban Governance",
+      "citizenReforms": "Citizen-Centric Urban Reforms"
+    }
+  },
+  "quickLinks": {
+    "brap": "BRAP",
+    "schemes": "Schemes",
+    "iec": "IEC",
+    "tenders": "Tenders",
+    "sanjy": "SANJY",
+    "monthlyNewsletter": "Monthly Newsletter"
+  },
+  "ordertabs": {
+    "orders": "Orders",
+    "circulars": "Circulars",
+    "notices": "Notices"
+  },
+  "getApp": {
+    "title": "Get the Mobile App",
+    "subtitle": "We will send you a link, open it on your phone to download the app.",
+    "radioEmail": "Email",
+    "radioPhone": "Phone",
+    "placeholderEmail": "Enter email",
+    "placeholderPhone": "Enter phone",
+    "submit": "Submit",
+    "downloadText": "Download app from"
+  },
+  "brap": {
+    "title": "About BRAP (Business Reform Action Plan)",
+    "description": "The Business Reform Action Plan (BRAP) is an initiative of the Department for Promotion of Industry and Internal Trade (DPIIT), Government of India, aimed at improving the ease of doing business across States and Union Territories. BRAP provides a comprehensive framework of reforms, guidelines, and process improvements to promote transparent, efficient, and business-friendly service delivery. The objective of BRAP is to simplify regulatory procedures, reduce compliance burdens, and create an enabling environment that supports investment, entrepreneurship, and economic growth.",
+    "tableTitle": "Housing & Urban Development Department, J&K",
+    "tableHeaders": {
+      "sno": "S. No",
+      "services": "Services",
+      "status": "Status"
+    },
+    "footerNote": "* NA indicates the non-applicability of the specified services in the Union Territory (UT).",
+    "visitWebsite": "Click here to visit Official Website",
+    "services": {
+      "signage": "Signage Permission",
+      "streetVendor": "Certificate of Vending (Street Vendor License)",
+      "tradeLicense": "Municipal Trade License/ NOC for Commercial Establishment",
+      "sewerage": "Sewerage Connection",
+      "fleetParking": "Fleet/Depot Parking Permission",
+      "zonalClearances": "Parking, Staging, and Zonal Clearances",
+      "buildingPlan": "Building Plan Approval",
+      "revalidation": "Permission for Alteration and Addition/ Revision/ Revalidation",
+      "demolition": "Permission for Demolition and Reconstruction",
+      "plinth": "Plinth Approval",
+      "occupancy": "Occupancy/Completion Certificate"
+    }
+  },
+  "sanjy": {
+    "title1": "SHRI AMARNATH JI YATRA 2025",
+    "subtitle1": "Shri Amarnathj Ji Yatra 2025: A Commitment to Sustainability",
+    "desc1": "Reaffirming its commitment to environmental stewardship, the Housing and Urban Development Department (JKHUDD), Jammu & Kashmir, has launched a renewed set of eco-friendly initiatives to make Shri Amarnath Ji Yatra 2025 a greener, cleaner, and more sustainable pilgrimage. These efforts aim to harmonize spiritual devotion with ecological responsibility, ensuring that the sacred journey honors the fragile natural environment. With lakhs of yatris arriving from across the country, HUDD has implemented comprehensive waste management strategies across all Yatra routes & camps. These strategies focus on waste segregation at source, minimization, recycling, and responsible disposal, ensuring that the fragile Himalayan ecosystem remains protected. In its pursuit of a Zero Landfill Yatra, HUDD is promoting decentralized waste processing units, composting of biodegradable waste, and robust linkages with recyclers to ensure that minimal waste reaches landfills. Additionally, the department is actively guiding stakeholders on sourcing eco-friendly alternatives to single-use plastics, discouraging disposables, and encouraging sustainable procurement practices that align with long-term environmental goals.",
+    "title2": "Tawi Aarti Illuminates Jammu: A Spiritual Prelude to Shri Amarnath Ji Yatra 2025",
+    "desc2": "In a celebration of faith and culture, the Tawi River Front in Jammu witnessed a historic moment as Hon'ble Lieutenant Governor of J&K, Sh. Manoj Sinha, inaugurated the Tawi Aarti on July 1st, 2025 at Jammu. Organized as a ceremonial commencement of the Shri Amarnath Yatra 2025, the event has added a divine dimension to the spiritual fabric of the city, drawing thousands of devotees and tourists to its sacred banks. The initiative is being jointly organised by Jammu Municipal Corporation (JMC) and Department of Tourism, J&K, in collaboration with Jammu Smart City Limited and Shri Raghunath Ji Corridor Development Council. Held on evening at 7:00 PM on the Left Bank near the Fourth Bridge, the Tawi Aarti has transformed the riverfront into a glowing spectacle of devotion.",
+    "visitOfficial": "Click here to visit Official Website"
+  },
+  "footer": {
+    "copyright": "© 2026 All Rights Reserved",
+    "subordinateDepartments": "HUDD Subordinate Departments",
+    "importantLinks": "Important Links",
+    "additionalInfo": "Additional Information",
+    "tagline": "Empowering urban local bodies and building sustainable, citizen-focused cities."
+  }
+}

@@ -1,0 +1,91 @@
+.swiper-slide-active .hod-card {
+  background-color: #1b3f6b !important;
+  border-color: #1b3f6b !important;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0%) !important;
+  opacity: 1 !important;
+  transform: scale(1.09) !important;
+}
+.swiper-slide-active .hod-name {
+  color: white !important;
+}
+
+.swiper-slide-active .hod-designation {
+  color: #fde047 !important;
+}
+
+.swiper-slide-active .hod-department {
+  color: #bfdbfe !important;
+}
+
+.swiper-slide:not(.swiper-slide-active) .hod-card {
+  opacity: 0.65;
+  transform: scale(0.95);
+}
+
+.swiper-slide:not(.swiper-slide-active):not(.swiper-slide-next):not(
+    .swiper-slide-prev
+  )
+  .hod-card {
+  opacity: 0.35;
+  transform: scale(0.9);
+}
+
+/* Navigation button styling */
+.hod-swiper .swiper-button-prev,
+.hod-swiper .swiper-button-next {
+  width: 35px !important;
+  height: 35px !important;
+  background: #1b3f6b !important;
+  border: 1.5px solid #1b3f6b !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 6px -1px rgba(225, 221, 221, 0.1) !important;
+  color: #1b3f6b !important;
+  transition: all 0.2s !important;
+}
+
+.hod-swiper .swiper-button-prev:hover,
+.hod-swiper .swiper-button-next:hover {
+  background: #1b3f6b !important;
+  color: white !important;
+}
+
+.hod-swiper .swiper-button-prev::after,
+.hod-swiper .swiper-button-next::after {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
+.hod-swiper .swiper-pagination {
+  bottom: -8px !important;
+}
+
+.hod-swiper .swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  background: #cbd5e1 !important;
+  opacity: 1 !important;
+  transition: all 0.3s !important;
+}
+
+.hod-swiper .swiper-pagination-bullet-active {
+  width: 24px !important;
+  border-radius: 4px !important;
+  background: #1b3f6b !important;
+}
+@media only screen and (max-width: 767px) {
+  .swiper-slide-active .hod-card {
+    box-shadow: 0 22px 40px -12px rgb(0 0 0 / 0%) !important;
+    transform: scale(1.01) !important;
+  }
+  .hod-swiper .swiper-button-prev {
+    left: -7px !important;
+  }
+  .hod-swiper .swiper-button-next {
+    right: -7px !important;
+  }
+  .hod-swiper .swiper-button-next,
+  .hod-swiper .swiper-button-prev {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
