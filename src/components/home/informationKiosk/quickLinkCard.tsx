@@ -16,7 +16,7 @@ export const QuickLinkCard = ({ item }: QuickLinkCardProps) => {
   const { title, icon, href, external = false } = item
 
   const cardClassName =
-    "flex  flex-col items-center justify-center rounded-[5px] bg-[#dddddd] px-2 py-4 text-center shadow-[0_10px_28px_rgba(15,76,129,0.06)] transition-transform duration-300 hover:scale-105 hover:bg-[#0f3d69] text-black hover:text-white border w-auto h-38 md:h-38  md:w-38  hover:text-white"
+    "flex  flex-col items-center justify-center rounded-[5px] bg-[#dddddd] px-2 py-4 text-center shadow-[0_10px_28px_rgba(15,76,129,0.06)] transition-transform duration-300 hover:scale-105 hover:bg-[#0f3d69] text-black hover:text-white border w-auto h-38 md:h-38  md:w-38  hover:text-white border-1 border-slate-500"
 
   const content = (
     <>

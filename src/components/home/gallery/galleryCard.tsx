@@ -20,40 +20,60 @@ export default function GalleryCard({ item }: { item: GalleryUIItem }) {
   return (
     <AppLink
       to={withSlug(routePaths.galleryDetail, item.slug)}
-      className="group relative block rounded-2xl focus-visible:ring-offset-2 focus-visible:outline-none"
+      className="group relative block rounded-2xl focus-visible:ring-2 focus-visible:ring-[#1b3060] focus-visible:outline-none"
     >
-      <Card className="card_design h-[270px] overflow-hidden rounded-sm border border-[#cce3f7] bg-[#E2F2FC] p-0 shadow-md transition-all duration-300 group-hover:-translate-y-1 group-hover:scale-105 group-hover:shadow-xl">
-        {/* Image container */}
-        <div className="relative aspect-[4/3] h-[275px] overflow-hidden pt-[6px] pr-[6px] pb-0 pl-[6px]">
-          <img
-            src={item.image}
-            alt={item.title}
-            className="h-full w-full object-cover transition-transform duration-500 hover:mt-[6px] hover:mr-[6px] hover:ml-[6px] hover:pb-0"
-            loading="lazy"
-          />
+      {/*  Gradient Border Wrapper */}
+      <div className="group-hover:shadow-1md rounded-2xl bg-gradient-to-br from-[#1b3060]/20 via-white/40 to-[#1b3060]/20 p-[1px] transition-all duration-500">
+        <Card className="relative h-[250px] gap-0 overflow-hidden rounded-2xl border-0 bg-white/60 py-0 shadow-md backdrop-blur-xl transition-all duration-500 group-hover:-translate-y-2 group-hover:scale-[1.03]">
+          {/*  Shine Effect */}
+          <div className="pointer-events-none absolute inset-0 z-10 overflow-hidden">
+            <div className="absolute top-0 -left-[120%] h-full w-[60%] rotate-12 bg-white/40 blur-xl transition-all duration-700 group-hover:left-[120%]" />
+          </div>
 
-          {/* Overlay — hidden by default, fades in on hover */}
-          <div className="absolute inset-0 bg-[#1b3060]/0 transition-colors duration-300" />
+          {/* Image */}
+          <div className="relative h-[200px] overflow-hidden rounded-t-2xl">
+            <img
+              src={item.image}
+              alt={item.title}
+              loading="lazy"
+              className="h-full w-full object-cover transition-all duration-700 ease-out group-hover:scale-110"
+            />
 
-          {/* "Open Gallery" pill — slides up on hover */}
-          {/* <div className="absolute bottom-3 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-            <Badge
-              variant="secondary"
-              className="flex items-center gap-1.5 bg-white/95 px-3 py-1.5 text-xs font-semibold text-[#1b3060] shadow-lg hover:bg-white"
-            >
-              <ExternalLink className="h-3 w-3" />
-              Open Gallery
-            </Badge>
-          </div> */}
-        </div>
+            {/*  Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-[#1b3060]/70 via-[#1b3060]/20 to-transparent opacity-0 transition-all duration-500 group-hover:opacity-100" />
 
-        {/* Caption */}
-        <div className="bg-[#E2F2FC] px-4 py-3 pt-0">
-          <p className="text-center text-sm leading-snug font-medium text-slate-700 transition-colors duration-200 group-hover:text-[#1b3060]">
-            {item.title}
-          </p>
-        </div>
-      </Card>
+            {/*  Center Icon */}
+            <div className="absolute inset-0 flex scale-75 items-center justify-center opacity-0 transition-all duration-500 group-hover:scale-100 group-hover:opacity-100">
+              <div className="rounded-full bg-white/90 p-3 shadow-lg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 text-[#1b3060]"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15 10l4.553-4.553M19 5h-4m4 0v4M10 14l-4.553 4.553M5 19h4m-4 0v-4"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          {/*  Caption */}
+          <div className="relative bg-white/70 px-4 py-3 backdrop-blur-md">
+            <p className="text-center text-sm font-semibold tracking-tight text-slate-700 transition-all duration-300 group-hover:text-[#1b3060]">
+              {item.title}
+            </p>
+
+            {/*  Bottom underline animation */}
+            <div className="mx-auto mt-2 h-[2px] w-0 bg-[#1b3060] transition-all duration-500 group-hover:w-10" />
+          </div>
+        </Card>
+      </div>
     </AppLink>
   )
 }

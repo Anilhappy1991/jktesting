@@ -442,3 +442,13 @@ button:hover {
   animation: marquee-up 14s linear infinite;
   animation-play-state: running;
 }
+.arrowdown::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #1f3f77;
+  transition: all 0.3s ease;
+}

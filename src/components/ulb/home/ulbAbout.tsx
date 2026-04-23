@@ -51,7 +51,7 @@ export default function About() {
                   key={idx}
                   className="text-justify text-[15px] leading-8 text-gray-700 md:text-base"
                 >
-                  {text}
+                  {/* {text} */}
                 </p>
               ))}
             </div>

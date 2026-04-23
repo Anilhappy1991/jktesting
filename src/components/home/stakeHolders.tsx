@@ -36,12 +36,12 @@ export default function StakeHolders() {
           <div
             key={copyIndex}
             aria-hidden={copyIndex === 1}
-            className="stakeholders-marquee-sequence flex shrink-0 items-center gap-4 pr-4 sm:gap-5 sm:pr-5 lg:gap-6 lg:pr-6"
+            className="stakeholders-marquee-sequence flex shrink-0 items-center gap-4 pt-4 pr-4 sm:gap-5 sm:pr-5 lg:gap-6 lg:pr-6"
           >
             {marqueeItems.map((item, index) => (
               <div
                 key={`${item.id}-${copyIndex}-${index}`}
-                className="flex h-24 w-[132px] shrink-0 items-center justify-center rounded-xl bg-white px-4 sm:w-[150px] lg:w-[170px]"
+                className="flex h-24 w-[132px] shrink-0 items-center justify-center rounded-xl bg-[#eeeeee] px-4 shadow-sky-100 sm:w-[150px] lg:w-[170px]"
               >
                 <img
                   src={item.logo_url}

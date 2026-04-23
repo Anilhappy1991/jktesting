@@ -20,7 +20,7 @@ const getErrorMessage = (error: unknown) => {
 
 function LeaderCard({ leader }: { leader: HodItem }) {
   return (
-    <div className="h-full rounded-2xl bg-blue-300 p-4">
+    <div className="h-full rounded-2xl bg-gradient-to-br from-blue-200 via-blue-300 to-blue-400 p-4">
       <div className="flex h-full flex-col items-center gap-4 md:flex-row">
         <div className="h-54 w-50 shrink-0 overflow-hidden rounded-2xl border-4 border-white shadow">
           <img
@@ -82,12 +82,12 @@ const LeaderCarousel = () => {
             mainSwiperRef.current = swiper
           }}
           onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
-          loop={leaderItems.length > 1}
-          autoplay={
-            leaderItems.length > 1
-              ? { delay: 3000, disableOnInteraction: false }
-              : false
-          }
+          // loop={leaderItems.length > 1}
+          // autoplay={
+          //   leaderItems.length > 1
+          //     ? { delay: 3000, disableOnInteraction: false }
+          //     : false
+          // }
           className="h-[410px] rounded-2xl md:h-[260px]"
         >
           {leaderItems.map((item) => (

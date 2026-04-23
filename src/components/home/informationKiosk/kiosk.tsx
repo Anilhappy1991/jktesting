@@ -37,11 +37,11 @@ export default function Kiosk() {
           <div className="grid grid-cols-1 gap-6 sm:gap-5 lg:grid-cols-1 lg:gap-4 xl:grid-cols-[minmax(0,1.65fr)_minmax(300px,1.1fr)]">
             {/*  Left Section */}
             <div className="space-y-4 sm:space-y-5">
-              <h2 className="text-left text-xl font-bold tracking-tight text-[#0c3b5e] sm:text-2xl md:text-2xl">
+              <h2 className="text-left text-xl font-medium tracking-tight text-[#1f4e79] sm:text-2xl md:text-3xl">
                 {t("headings.informationKiosk")}
               </h2>
 
-              <div className="h-[310px] overflow-hidden rounded-xl border border-slate-200 bg-white p-3 shadow-[0_10px_30px_rgba(15,76,129,0.08)] sm:p-4 sm:shadow-[0_16px_50px_rgba(15,76,129,0.08)]">
+              <div className="h-[320px] overflow-hidden rounded-xl border border-slate-200 bg-white p-3 shadow-[0_10px_30px_rgba(15,76,129,0.08)] sm:p-4 sm:shadow-[0_16px_50px_rgba(15,76,129,0.08)]">
                 {isLoading ? (
                   <div className="space-y-3 sm:space-y-4">
                     <div className="flex gap-2 overflow-hidden sm:gap-3">
@@ -77,7 +77,7 @@ export default function Kiosk() {
 
             {/* Right Section */}
             <div className="flex h-full flex-col justify-between sm:space-y-5 xl:sticky xl:top-6">
-              <h2 className="py-2 text-left text-xl font-medium tracking-tight text-[#0c3b5e] sm:py-0 sm:text-2xl md:text-2xl">
+              <h2 className="py-2 text-left text-xl font-medium tracking-tight text-[#1f4e79] sm:text-2xl md:text-3xl">
                 {t("headings.quickLinks")}
               </h2>
 

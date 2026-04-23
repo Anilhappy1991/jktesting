@@ -72,7 +72,7 @@ function KioskInformationMarquee({ items }: { items: KioskTabDataItem[] }) {
 
   return (
     <>
-      <style>
+      {/* <style>
         {`
           @keyframes kiosk-vertical-marquee {
             0% {
@@ -83,10 +83,10 @@ function KioskInformationMarquee({ items }: { items: KioskTabDataItem[] }) {
             }
           }
         `}
-      </style>
+      </style> */}
 
       <div
-        className="tabssec h-[300px] overflow-hidden rounded-[22px] bg-white px-4 py-3 sm:h-[320px] sm:px-4 sm:py-4 md:h-[400px]"
+        className="tabssec custom-scrollbar h-[300px] overflow-auto rounded-[22px] bg-white px-4 py-3 sm:h-[250px] sm:px-4 sm:py-4 md:h-[250px]"
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >

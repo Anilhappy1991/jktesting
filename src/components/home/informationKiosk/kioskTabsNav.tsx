@@ -12,7 +12,7 @@ export default function KioskTabsNav({ tabs }: KioskTabsNavProps) {
         <TabsTrigger
           key={tab.id}
           value={String(tab.id)}
-          className="h-[35px] cursor-pointer rounded-t-md rounded-b-none border border-slate-200 bg-[#dfdfdf] px-1 py-3 text-left text-[11px] font-semibold text-slate-900 shadow-none transition-colors hover:bg-[#dfdfdf] hover:text-blue-500 sm:px-2 sm:text-xs data-active:bg-[#0f4c81] data-active:text-white data-active:shadow-none"
+          className="arrowdown relative inline-block h-[35px] cursor-pointer rounded-xl rounded-t-md rounded-b-none border border-slate-200 bg-[#dddddd] px-1 px-5 py-3 text-center text-[11px] font-semibold text-slate-900 shadow-none transition-colors hover:bg-[#1f3f77] hover:text-[#ffffff] sm:px-2 sm:text-xs data-active:bg-[#0f4c81] data-active:text-white data-active:shadow-none"
         >
           {tab.title}
         </TabsTrigger>

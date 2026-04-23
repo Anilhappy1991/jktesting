@@ -24,17 +24,19 @@ export default function Home() {
       />
       <HomeCarousel />
       <WhatsNewBar />
-      <HomeAbout />
-      <Kiosk />
-      <AnalyticDashboard />
-      <OurSchemes />
-      <WhatsNew />
-      <SocialMedia />
-      <EServices />
-      <OurHods />
-      <AchievementsSlider />
-      <ExploreGallery />
-      <StakeHolders />
+      <div className="relative mt-2 sm:mt-10">
+        <HomeAbout />
+        <Kiosk />
+        <AnalyticDashboard />
+        <OurSchemes />
+        <WhatsNew />
+        <SocialMedia />
+        <EServices />
+        <OurHods />
+        <AchievementsSlider />
+        <ExploreGallery />
+        <StakeHolders />
+      </div>
     </>
   )
 }

@@ -2,8 +2,8 @@ import AboutDescription from "./aboutDescription"
 
 const HomeAbout = () => {
   return (
-    <section id="home-about" className="scroll-mt-32 bg-[#f4f5f7]">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-20">
+    <section id="home-about" className="scroll-mt-32">
+      <div className="w-full px-4 sm:px-6 lg:px-10 xl:px-10">
         <div className="">
           <AboutDescription />
         </div>

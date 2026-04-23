@@ -25,15 +25,15 @@ export const EServiceCard = ({
       {/* Hover Gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#1f4e79]/40 to-[#1f4e79] pt-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
 
-      <CardContent className="relative z-10 flex flex-col gap-3 pt-2 pb-2">
+      <CardContent className="relative z-10 flex flex-col gap-3 pt-2 pb-0">
         {/* Top Content */}
-        <div className="flex h-[100px] items-start gap-3 pt-4 sm:gap-4">
+        <div className="group flex h-[100px] items-start gap-3 pt-4 sm:gap-4">
           {/* Icon */}
-          <div className="flex-shrink-0 sm:mt-[20px]">
+          <div className="flex-shrink-0 rounded-full bg-[#e2f2fcf7] p-[10px] transition-colors duration-300 group-hover:bg-[#ffffff] group-hover:shadow-[0px_0px_0px_1px_#2c588078]">
             <img
               src={icon}
               alt={title}
-              className="h-20 w-20 object-contain sm:h-16 sm:w-16 md:h-20 md:w-20"
+              className="h-12 w-12 object-contain sm:h-12 sm:w-12 md:h-14 md:w-14"
             />
           </div>
 
